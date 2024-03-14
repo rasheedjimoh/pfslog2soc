@@ -8,6 +8,9 @@ Welcome to my professional portfolio, where I demonstrate expertise in cybersecu
 
 1. **Login to Elastic Fleet:**
    - Access Elastic Fleet and add the Elastic integration to the General Policy to manage agent policies efficiently.
+![pf-ingest](https://github.com/rasheedjimoh/pfslog2soc/assets/157264080/cd06b30e-e3a9-4125-8dcc-3c2f2126a99a)
+
+
 
 2. **Configure Integration for pfSense:**
    - Within the Agent policies, add the pfSense integration and set the syslog host to "0.0.0.0.0" to ensure Security Onion captures all management traffic on UDP port 9001.
@@ -21,11 +24,17 @@ Welcome to my professional portfolio, where I demonstrate expertise in cybersecu
    - Access the Security Onion host administration panel and navigate to the Configuration section to configure firewall settings.
    - Enable "show all configurable settings" and configure custom host and port groups to accommodate pfSense log traffic on UDP port 9001.
 
+![pf-ingest0](https://github.com/rasheedjimoh/pfslog2soc/assets/157264080/44fef836-76cd-4425-a932-6d5392906544)
+
+
 2. **Defining Role and License:**
    - Set the role to Standalone and configure the chain and input settings to accept traffic from the custom port group assigned to pfSense logs.
 
 3. **Synchronizing Changes:**
    - Push the configuration changes into production by synchronizing the grid, ensuring seamless integration and data flow between pfSense and Security Onion.
+
+
+![pf-ingest1](https://github.com/rasheedjimoh/pfslog2soc/assets/157264080/223062c9-a94b-4e14-ab1b-6cb608cc0f9b)
 
 **Configuring pfSense:**
 
